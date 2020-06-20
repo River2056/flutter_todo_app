@@ -48,7 +48,7 @@ class _ToDoPageState extends State<ToDoPage> {
   void addNewTodoForm(BuildContext context) {
     Alert(
       context: context,
-      title: "Add New Expense...",
+      title: "New Todo",
       content: Column(
         children: <Widget>[
           TextField(
